@@ -2,15 +2,15 @@
 substitutions:
   name: nabu-voice-assistant
   friendly_name: Nabu
-  loading_illustration_file: https://github.com/jlpouffier/home-assistant-s3-box-community-illustrations/raw/main/ava_midjourney/illustrations/loading.png
-  idle_illustration_file: https://github.com/jlpouffier/home-assistant-s3-box-community-illustrations/raw/main/ava_midjourney/illustrations/idle.png
-  listening_illustration_file: https://github.com/jlpouffier/home-assistant-s3-box-community-illustrations/raw/main/ava_midjourney/illustrations/listening.png
-  thinking_illustration_file: https://github.com/jlpouffier/home-assistant-s3-box-community-illustrations/raw/main/ava_midjourney/illustrations/thinking.png
-  replying_illustration_file: https://github.com/jlpouffier/home-assistant-s3-box-community-illustrations/raw/main/ava_midjourney/illustrations/replying.png
-  error_illustration_file: https://github.com/jlpouffier/home-assistant-s3-box-community-illustrations/raw/main/ava_midjourney/illustrations/error.png
-  timer_finished_illustration_file: https://live.staticflickr.com/65535/53308936295_91bdbe744b_c.jpg
-  no_wifi_illustration_file: https://github.com/esphome/wake-word-voice-assistants/raw/main/error_box_illustrations/error-no-wifi.png
-  no_ha_illustration_file: https://github.com/esphome/wake-word-voice-assistants/raw/main/error_box_illustrations/error-no-ha.png
+  loading_illustration_file: https://raw.githubusercontent.com/ads04r/esp32-box-home-assistant/master/images/loading_illustration_file.png
+  idle_illustration_file: https://raw.githubusercontent.com/ads04r/esp32-box-home-assistant/master/images/idle_illustration_file.png
+  listening_illustration_file: https://raw.githubusercontent.com/ads04r/esp32-box-home-assistant/master/images/listening_illustration_file.png
+  thinking_illustration_file: https://raw.githubusercontent.com/ads04r/esp32-box-home-assistant/master/images/thinking_illustration_file.png
+  replying_illustration_file: https://raw.githubusercontent.com/ads04r/esp32-box-home-assistant/master/images/replying_illustration_file.png
+  error_illustration_file: https://raw.githubusercontent.com/ads04r/esp32-box-home-assistant/master/images/error_illustration_file.png
+  timer_finished_illustration_file: https://raw.githubusercontent.com/ads04r/esp32-box-home-assistant/master/images/timer_finished_illustration_file.png
+  no_wifi_illustration_file: https://raw.githubusercontent.com/ads04r/esp32-box-home-assistant/master/images/no_wifi_illustration_file.png
+  no_ha_illustration_file: https://raw.githubusercontent.com/ads04r/esp32-box-home-assistant/master/images/no_ha_illustration_file.png
   
   loading_illustration_background_color: "000000"
   idle_illustration_background_color: "000000"
@@ -252,7 +252,7 @@ voice_assistant:
   speaker: box_speaker
   noise_suppression_level: 2
   auto_gain: 31dBFS
-  volume_multiplier: 2.0
+  volume_multiplier: 4.0
   vad_threshold: 3
   on_listening:
     - lambda: id(voice_assistant_phase) = ${voice_assist_listening_phase_id};
